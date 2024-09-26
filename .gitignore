@@ -1,0 +1,14 @@
+# Ignorar archivos y carpetas específicos de Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Ignorar carpetas de entorno y dependencias
+node_modules/
+dist/
+
+# Ignorar archivos de configuración específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar la carpeta innecesarias
+eventos-main/
