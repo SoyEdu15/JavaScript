@@ -125,6 +125,8 @@ console.log (++i);
 
 // Posincremento (++ después de la variable)
 /*El pre incremento incrementa el valor de la variable en una unidad despues de que se realice cualquier otra operacio*/
+
+//
 let p=0
 console.log (p++)
 console.log (p)
