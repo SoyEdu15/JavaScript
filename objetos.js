@@ -30,3 +30,9 @@ persona.telefono = 231312312312
 console.log(persona)
 delete persona.telefono
 console.log(persona)
+let personaArray = Object.values(persona)
+console.log(personaArray)
+
+
+let personaString = JSON.stringify(persona)
+console.log(personaString)
