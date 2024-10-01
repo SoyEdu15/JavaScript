@@ -83,3 +83,14 @@ var constructor = function (precio) {
 }
 precio1 =constructor(100);
 console.log(precio1.calcularIva());
+
+
+function miFuncion() {
+    let count = 1
+    function contador() {
+        return (count)
+    }
+    return contador()
+}
+console.log(miFuncion())
+count
