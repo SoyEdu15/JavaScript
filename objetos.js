@@ -36,3 +36,21 @@ console.log(personaArray)
 
 let personaString = JSON.stringify(persona)
 console.log(personaString)
+function Persona (nombre = 'Juan', apellido, email) {
+    this.nombre = nombre;
+    this.apellido = apellido
+    this.email = email;
+    this.nombrecompleto = function () {
+        return this.nombre + ' '+ this.apellido
+    }
+}
+let padre = new Persona ("Camilo", "Rocha", "camiloerec@gmail.com");
+let personax = new Persona ()
+console.log(personax)
+console.log(padre);
+let madre = new Persona("Laura", "Contreras", "firmuoco@nili.kn");
+Persona.prototype.tel = 4432211;
+console.log(madre.tel)
+padre.tel = 12345
+console.log(madre)
+console.log(padre)
