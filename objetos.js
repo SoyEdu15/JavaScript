@@ -93,4 +93,16 @@ function miFuncion() {
     return contador()
 }
 console.log(miFuncion())
-count
+
+
+var x = 10;
+function foo() {
+    var y= 20;
+    function bar() {
+        var z =15;
+        var ouput = x +y +z;
+        return (ouput)
+    }
+    return bar()
+}
+console.log(foo())
