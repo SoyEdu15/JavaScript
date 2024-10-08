@@ -19,3 +19,21 @@ console.log(persona2);
 
 persona1.nombre = "Camilo Enrique";
 console.log(persona1.nombre)
+class Persona2 {
+    static contadorPersonas = 0;
+    static get MAX_OBJ(){
+        return 5
+    }
+    static saludar(){
+        console.log("Saludando desde el metodo saludar")
+    }
+    static saludar2(persona){
+        console.log(persona)
+    }
+}
+
+Persona2.saludar()
+Persona2.saludar2("Pepito")
+
+// ! herencia de classes 
+//  Se usa con la palabra reservada extens
