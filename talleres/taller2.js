@@ -89,7 +89,7 @@ const producto = {
                 info += `${clave}: ${this[clave]}, `;
             }
         }
-        return info.slice(0, -2); //emliminamos la coma del final
+        return info.slice(0, -2); //Emliminamos la coma del final
     }
 };
 
@@ -97,3 +97,5 @@ const producto = {
 console.log(producto.descripcion());
 producto
 console.log(producto.nombre)
+
+//👨‍💻
