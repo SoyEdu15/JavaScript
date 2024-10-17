@@ -5,3 +5,4 @@ window.onload = function () {
     console.log($parrafo)
     console.log($h1.textContent)
 }
+ 
