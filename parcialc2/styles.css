@@ -1,0 +1,35 @@
+body {
+    padding-top: 20px;
+    margin: 0;
+    color: #2a2c2d;
+    overflow-x: hidden; /* Asegúrate de que el overflow esté oculto */
+    background-color: #4ab77b;
+    font-family: "Fira Code", monospace;
+    box-sizing: border-box; /* Asegúrate de que el box-sizing incluya padding y border */
+}
+h2{
+    font-size: 3em;
+}
+.contenedor {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    width: 100vw;
+}
+h2:hover{
+    font-size: 3.2em;
+}
+
+input{
+
+    border-radius: 10px;
+}
+form{
+    background-color: #369e65;
+    padding: 1em ;
+    border-radius: 15PX;
+}
