@@ -1,6 +1,6 @@
 let boton = document.querySelector("#btnPrincipal")
 let boton2 = document.querySelector("#btnSecundario")
-let $botton = document.querySelector("#primero")
+let $change = document.querySelector("#primero")
 let $segundo2 = document.querySelector ("#segundo")
 
 // boton.addEventListener("click", respuestaClick)
@@ -13,8 +13,8 @@ boton.onclick = ()=>{
 boton2.onclick = ()=>{
     alert("Respuesta al click 3")
 }
-$botton.onclick = function() {
-    $botton.innerHTML = 'Ooops!';
+$change.onclick = () =>{
+    $change.innerHTML = 'Ooops!';
 }
 
 $segundo2.onclick = function () {
