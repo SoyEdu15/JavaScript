@@ -33,6 +33,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="file"] {
+    width: 100%;
     padding: 0.5em;
     margin-top: 0.5em;
     border: 1px solid #ccc;
@@ -41,7 +42,27 @@ input[type="file"] {
 }
 
 input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 50%; /* Cambia a 50% para hacerlos circulares */
     margin-right: 0.5em;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    background-color: #007BFF;
+}
+
+.gender-options {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.gender-options label {
+    margin-left: 0.5em; /* Espaciado entre el radio y la etiqueta */
 }
 
 button {
@@ -59,23 +80,8 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
-.gender-options {
-    display: flex;
-    align-items: center;
-    margin-top: 0.5em;
-}
-
-input[type="radio"] {
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #007BFF;
-    border-radius: 4px;
-    margin-right: 0.5em;
-    cursor: pointer;
-}
-
-input[type="radio"]:checked {
-    background-color: #007BFF;
+.section-form{
+    border: #333 ;
+    max-width: 80vw;
+    margin: auto;
 }
