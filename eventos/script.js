@@ -84,4 +84,5 @@ document.addEventListener("keyup", (event) => {
         hoverBox.style.color = "white";
     }
 });
+
 document.addEventListener("keydown", (event) => {console.log(`Se presionó la tecla: ${event.key}`);})

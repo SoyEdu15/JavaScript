@@ -3,7 +3,7 @@ body {
     margin: 0;
     color: #2a2c2d;
     overflow-x: hidden; /* Asegúrate de que el overflow esté oculto */
-    background-color: #4ab77b;
+    background-color: #4fd38a;
     font-family: "Fira Code", monospace;
     box-sizing: border-box; /* Asegúrate de que el box-sizing incluya padding y border */
 }

@@ -1,7 +1,9 @@
 function submitForm(event) {
     event.preventDefault(); // Evita que el formulario se envíe y recargue la página
 
-    const form = document.getElementById('basicinformationForm');
+
+
+    const form = document.getElementById('cvForm');
     const formData = new FormData(form);
     const name = formData.get('name');
     const email = formData.get('email');
